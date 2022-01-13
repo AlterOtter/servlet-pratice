@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-  <%@ page import = "VO.GuestbookVO, java.util.ArrayList, dao.guest_dao" %>   
+  <%@ page import = "vo.GuestbookVO, java.util.ArrayList, dao.guest_dao" %>   
 <!DOCTYPE html>
 <html>
 <head>
