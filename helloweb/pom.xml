@@ -11,7 +11,12 @@
 	</properties>
 	
 	<!-- 라이브러리 항목 -->
-	<dependencies>
+	 <dependencies>
+			<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.17</version>
+		</dependency>
 	</dependencies>
 	
 	<build>

@@ -12,15 +12,16 @@
 		메일 리스트에 가입하려면,<br>
 		아래 항목을 기입하고 submit 버튼을 클릭하세요.
 	</p>
-	<form action="/helloweb/join" method="POST">
-	    First name: <input type="text" name="fn" value="" ><br>
-	    Last name: <input type="text" name="ln" value=""><br>
+	<form action="/emaillist01/jsp/add.jsp" method="POST">
+		<input type="hidden" value="join" name="action">
+	    First name: <input type="text" name="first_name" value="" ><br>
+	    Last name: <input type="text" name="last_name" value=""><br>
 	    Email address: <input type="text" name="email" value=""><br>
 	    <input type="submit" value="submit">
 	</form>
 	<br>
 	<p>
-		<a href="/emaillist/jsp/index.jsp">리스트 바로가기</a>
+		<a href="/emaillist01/emaillist">리스트 바로가기</a>
 	</p>
 </body>
 </html>
